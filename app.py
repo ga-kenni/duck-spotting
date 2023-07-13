@@ -14,7 +14,7 @@ def index():
     cursor.execute("SELECT * FROM mytable;")
     results = cursor.fetchall()
     connection.close()
-    1/0
+
     return f"{results}"
 
 if __name__ == '__main__':
